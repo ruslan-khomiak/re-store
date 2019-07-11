@@ -9,4 +9,4 @@ const App = ({ bookstoreService }) => {
   return <div>App</div>
 };
 
-export default withBookstoreService(App);
+export default withBookstoreService()(App);
